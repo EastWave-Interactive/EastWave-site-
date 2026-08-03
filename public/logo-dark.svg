@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" width="560" height="140">
+  <title>EastWave Interactive — logo (dark background)</title>
+  <g>
+    <polyline points="14,78 34,78 34,50 54,50 54,86 74,86 74,34 94,34" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"></polyline>
+    <circle cx="94" cy="34" r="9" fill="#D6AE54"></circle>
+  </g>
+  <g transform="translate(140,0)" font-family="Archivo, &#39;Helvetica Neue&#39;, Arial, sans-serif">
+    <text x="0" y="72" font-size="52" font-weight="800" letter-spacing="0.5" fill="#FFFFFF">EASTWAVE</text>
+    <text x="2" y="97" font-size="14.5" font-weight="600" letter-spacing="8" fill="#D6AE54">INTERACTIVE</text>
+  </g>
+</svg>

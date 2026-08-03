@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-abyss: #0B1B2B;
+  --color-charcoal: #14171C;
+  --color-brass: #C29A41;
+  --color-gold: #D6AE54;
+  --color-offwhite: #F7F6F3;
+  --color-paper: #FFFFFF;
+  --color-slate: #5B6470;
+  --color-mist: #8A96A6;
+  --color-hairline: #E6E6E6;
+  --color-hairline-dark: #1E2A38;
+  --color-success: #2E7D5B;
+  --color-error: #B23B3B;
+
+  /* Theme-aware tokens: light values below, overridden under .dark */
+  --color-bg: #F7F6F3;
+  --color-surface: #FFFFFF;
+  --color-text: #0B1B2B;
+  --color-muted: #5B6470;
+  --color-border: #E6E6E6;
+  --color-accent: #C29A41;
+  --color-accent-contrast: #F7F6F3;
+  --color-accent-hover: #0B1B2B;
+}
+
+/*
+  Dark palette reuses the brand's own dark tones (charcoal, gold,
+  hairline-dark) so accents keep the contrast they were tuned for.
+*/
+.dark {
+  --color-bg: #14171C;
+  --color-surface: #1B212B;
+  --color-text: #F7F6F3;
+  --color-muted: #8A96A6;
+  --color-border: #1E2A38;
+  --color-accent: #D6AE54;
+  --color-accent-contrast: #14171C;
+  --color-accent-hover: #F7F6F3;
+}
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}

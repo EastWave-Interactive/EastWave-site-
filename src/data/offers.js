@@ -1,0 +1,73 @@
+// Source: EastWave Services Library v0.1 + Homepage Script Section 07
+// Treat services as products. Pricing uses "Starting From" framing — never exact figures.
+
+export const offers = [
+  {
+    id: "clarity-sprint",
+    name: "Clarity Sprint",
+    category: "Strategy",
+    bestFor: ["Marketplace founders", "Local businesses", "International market entry"],
+    problem: [
+      "positioning is unclear",
+      "messaging is weak",
+      "website structure is confusing",
+      "offers are difficult to understand",
+    ],
+    outcome: "Clear direction. Digital confidence.",
+    deliverables: [
+      "positioning review",
+      "homepage strategy",
+      "messaging refinement",
+      "service architecture",
+      "roadmap",
+    ],
+    startingFrom: "Strategy session",
+    cta: "Request an Audit",
+  },
+  {
+    id: "custom-website-sprint",
+    name: "Custom Website Sprint",
+    category: "Digital Credibility",
+    bestFor: ["Businesses whose digital presence feels smaller than reality"],
+    problem: ["Visitors do not understand.", "Trust is low.", "Conversions are weak."],
+    outcome: "A custom digital presence.",
+    deliverables: [
+      "homepage",
+      "service pages",
+      "responsive design",
+      "forms",
+      "analytics",
+      "launch support",
+    ],
+    startingFrom: "Website sprint",
+    cta: "Explore Work",
+  },
+  {
+    id: "growth-systems-sprint",
+    name: "Growth Systems Sprint",
+    category: "Systems",
+    bestFor: ["Businesses running on manual, fragmented processes"],
+    problem: ["The business runs manually.", "Information leaks.", "Opportunities are lost."],
+    outcome: "Growth infrastructure.",
+    deliverables: [
+      "lead systems",
+      "workflow design",
+      "reporting",
+      "operational structure",
+      "automation recommendations",
+    ],
+    startingFrom: "System review",
+    cta: "Request Audit",
+  },
+  {
+    id: "growth-infrastructure",
+    name: "Growth Infrastructure",
+    category: "Long-term Partner",
+    bestFor: ["Businesses that need momentum to compound after launch"],
+    problem: ["Momentum disappears after launch."],
+    outcome: "Continuous leverage.",
+    deliverables: ["improvements", "optimization", "experiments", "content", "review cycles"],
+    startingFrom: "Monthly partnership",
+    cta: "Build With EastWave",
+  },
+];
